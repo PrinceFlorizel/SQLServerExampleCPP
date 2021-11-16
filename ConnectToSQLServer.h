@@ -56,7 +56,7 @@ bool Connect(SQLHANDLE& sql_env_handle,
 		// Connect to SQL Server
 		SQLCHAR ret_con_string[1024];
 		std::string server = "YOUR_SERVER.com";
-		std::string database = "DOESNT_REALLY_MATTER";
+		std::string database = "SOME_EXISTING_DATABASE";
 		std::string user_id, pwd;
 		GetUserInfo(user_id, pwd);
 		std::string conn_params = "DRIVER={ODBC Driver 17 for SQL Server};SERVER=" +
