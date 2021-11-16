@@ -61,7 +61,7 @@ bool Connect(SQLHANDLE& sql_env_handle,
 		GetUserInfo(user_id, pwd);
 		std::string conn_params = "DRIVER={ODBC Driver 17 for SQL Server};SERVER=" +
 			server + ";DATABASE=" + database +
-			";UID=NOANT\\" + user_id + ";PWD=" + pwd +
+			";UID=" + user_id + ";PWD=" + pwd +
 			";Trusted_Connection=yes;";
 
 		switch (SQLDriverConnectA(sql_connection_handle, NULL, (SQLCHAR*)conn_params.c_str(),
