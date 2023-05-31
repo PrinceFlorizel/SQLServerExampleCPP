@@ -1,5 +1,5 @@
 # SQLServerExampleCPP
-Sample C++ code to connect to an SQL Server, run a select query and print the output to console on Windows.
+Sample C++ code to connect to a Microsoft SQL Server database, run a select query and print the output to console on Windows.
 
 Before compiling:
   * Fill out the connection parameters in ConnectToSQLServer.h (lines 58 - 59)
